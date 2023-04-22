@@ -1,0 +1,264 @@
+body
+    
+.wrap{
+    background-color: #d1cece;
+    width: 380px;
+    height: 750px;
+    margin: 0 auto;
+}
+header{
+    background-color: white;
+    width: 380px;
+    height: 60px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px;
+}
+main{
+    width: 380px;
+    height: 650px; 
+    display:flex;
+    flex-flow: column;
+}
+.quizbox_wrap{
+    background-color: pink;
+    width: 380px;
+    height: auto;
+
+}
+.question{
+    margin-top: 0px;
+    background-color:white;
+    width: 380px;  
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.button_wrap{
+    background-color: aquamarine;
+    margin: 50px;
+}
+#quiz{
+    background-color:rgb(209, 118, 118);
+    height: 350px;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    font-size: 40px; */
+    /* display: flex;
+    justify-content: center; */  
+}
+#button_wrap{
+    width: 380px;
+    height: 100px;
+}
+.text{
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+    color: rgb(186, 15, 15);
+    font-weight: bold;
+    line-height: 100%;
+}
+#start_btn{
+    margin-top: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    box-shadow: 0 1px gray;
+    /* margin: 0; */
+       
+}
+.answer_wrap{
+    background-color: #d1cece;
+    width: auto;
+    height: 320px;
+}
+.answer1{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 15px;
+    margin-bottom: 10px; 
+}
+.answer2{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 0 10px;
+}
+.answer3{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 10px;
+}
+.answer4{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 0px 10px;
+}
+#btn1{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn2{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn3{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn4{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn5{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;   
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn6{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn7{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn8{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn9{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn0{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn11{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn12{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn13{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn14{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn15{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn16{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn17{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn18{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn19{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+#btn20{
+    width: 60px;
+    height: 50px;
+    font-size: 30px;border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px gray;
+}
+footer{
+    background-color: #9a9797;
+    width: 380px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+
+
+
+

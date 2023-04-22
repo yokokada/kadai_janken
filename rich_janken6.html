@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./kadai/js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="./kadai/css/rich_janken3.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1>記号クイズ</h1>
+        </div>
+        <div class="main">
+            <h3>次の記号が書かれたkeyはどれ？</h3>
+            <div class="quiz">
+                <div class="quiz_text">
+                    <h3>正解すると○がでます</h3>
+                    <h1>clickして始める</h1>
+                    <h1>↓</h1>
+                </div>
+                <div class="quiz_answer"></div>
+            </div>
+            <div class="button_wrap">
+                <button id="start_btn">START</button>
+            </div>
+            <div class="answer_wrap">
+                <box class="answer1">
+                    <button id="btn1">1</button>
+                    <button id="btn2">2</button>
+                    <button id="btn3">3</button>
+                    <button id="btn4">4</button>
+                    <button id="btn5">5</button>
+                 </box>
+                 <box class="answer2">
+                    <button id="btn6">6</button>
+                    <button id="btn7">7</button>
+                    <button id="btn8">8</button>
+                    <button id="btn9">9</button>
+                    <button id="btn0">0</button>
+                 </box>
+                 <box class="answer3">
+                    <button id="btn11">-</button>
+                    <button id="btn12">^</button>
+                    <button id="btn13">¥</button>
+                    <button id="btn14">[</button>
+                    <button id="btn15">]</button>
+                 </box>
+                 <box class="answer4">
+                    <button id="btn16">;</button>
+                    <button id="btn17">:</button>
+                    <button id="btn18">,</button>
+                    <button id="btn19">.</button>
+                    <button id="btn20">/</button>
+                 </box>
+             </div>  
+        </div>
+        <div class="footer">
+            <p>2023.4.25 Yoko Okada</p>
+        </div>
+        
+
+    </div>
+    
+</body>
+<script>
+    let x = 0 
+    let y = 0
+    // ランダム関数
+    $("#start_btn").on('click',function(){
+    const n = Math.ceil(Math.random()*19);
+    const x = n
+    // #start_btnをクリックしたらSTARTが「次の問題へ」になる
+    $("#start_btn").html("次の問題へ")
+
+    // .quizにランダムで19種類のimgを挿入
+    if(n==1){$(".quiz").html('<img src="./kadai/img/1.png">');
+    $("#btn1").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==2){$(".quiz").html('<img src="./kadai/img/2.png">');
+    $("#btn2").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==3){$(".quiz").html('<img src="./kadai/img/3.png">');
+    $("#btn3").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==4){$(".quiz").html('<img src="./kadai/img/4.png">');
+    $("#btn4").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==5){$(".quiz").html('<img src="./kadai/img/5.png">');
+    $("#btn5").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==6){$(".quiz").html('<img src="./kadai/img/6.png">');
+    $("#btn6").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==7){$(".quiz").html('<img src="./kadai/img/7.png">');
+    $("#btn7").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==8){$(".quiz").html('<img src="./kadai/img/8.png">');
+    $("#btn8").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==9){$(".quiz").html('<img src="./kadai/img/9.png">');
+    $("#btn9").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==11){$(".quiz").html('<img src="./kadai/img/11.png">');
+    $("#btn11").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==12){$(".quiz").html('<img src="./kadai/img/12.png">');
+    $("#btn12").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==13){$(".quiz").html('<img src="./kadai/img/13.png">');
+    $("#btn13").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==14){$(".quiz").html('<img src="./kadai/img/14.png">');
+    $("#btn14").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==15){$(".quiz").html('<img src="./kadai/img/15.png">');
+    $("#btn15").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==16){$(".quiz").html('<img src="./kadai/img/16.png">');
+    $("#btn16").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==17){$(".quiz").html('<img src="./kadai/img/17.png">');
+    $("#btn17").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==18){$(".quiz").html('<img src="./kadai/img/18.png">');
+    $("#btn18").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==19){$(".quiz").html('<img src="./kadai/img/19.png">');
+    $("#btn19").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+    if(n==10){$(".quiz").html('<img src="./kadai/img/20.png">');
+    $("#btn20").on('click',function(){
+    $(".quiz").html('<img src="./kadai/img/maru_sign.png">');
+    // $(".quiz").css("font-size","300%");
+    // $(".quiz").css("vertical-align:middle");
+    });}
+// この下は消さない！
+    });
+</script>
+
+</html>
