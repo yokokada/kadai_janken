@@ -1,6 +1,4 @@
 body{
-    width: 340px;
-    height: auto;
     font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
     background-color: #8a8888;
     margin: 0 auto;
@@ -8,7 +6,7 @@ body{
 }
 .wrap{
     background-color: white;
-    width: 340px;
+    width: 360px;
     height: auto;
     margin: 0 auto;
     border-radius: 10px;
@@ -48,12 +46,13 @@ body{
 .question{
     background-color: #fff;
     font-size: 16px;
-    margin-top: 6px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 .quiz{
     background-color: white;
     width: 300px;
-    height: 280px;
+    height: 260px;
     margin: 0 auto;
     text-align: center;
 
@@ -67,28 +66,28 @@ body{
     font-size: 20px;
     font-weight: bold;
     line-height: 5px;
-    margin-top: 120px;
+    margin-top: 100px;
     /* margin: 0 auto; */   
 }
 .inst{
     color: black;
     font-size: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 .click_prompt{
 
 }
 .button_wrap{
     /* background-color: yellowgreen; */
-    margin-top: 9px;;
-    padding-bottom: 5px;
+    margin-top: 16px;
+    padding-bottom: 0;
 }
 #start_btn{
     font-size: 16px;
     border-radius: 10px;
     border: none;
     box-shadow: 0 1px gray;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -96,7 +95,7 @@ body{
 
 .answer_wrap{
     background-color: rgb(215, 212, 212);;
-    width: 330px;
+    width: 350px;
     height: 200px;
     padding: 5px;
     color: black;
@@ -128,6 +127,7 @@ body{
     margin: 0px 8px;
 }
 #btn1{
+    color: black;
     text-align: center;
     width: 50px;
     height: 40px;
@@ -137,6 +137,7 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn2{
+    color: black;
     text-align: center;
     width: 50px;
     height: 40px;
@@ -147,6 +148,7 @@ body{
 }
 
 #btn3{
+    color: black;
     text-align: center;
     width: 50px;
     height: 40px;
@@ -156,6 +158,7 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn4{
+    color: black;
     text-align: center;
     width: 50px;
     height: 40px;
@@ -165,6 +168,7 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn5{
+    color: black;
     text-align: center;
     width: 50px;
     height: 40px;
@@ -310,7 +314,7 @@ body{
 }
 .footer{
     background-color:  rgb(60, 184, 184);
-    width: 340px;
+    width: 360px;
     height: 30px;
     text-align: center;
     font-size: 10px;
