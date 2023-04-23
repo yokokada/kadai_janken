@@ -330,9 +330,9 @@ body{
 }
 .footer{
     /* color: white; */
-    background-color:  gray;
+    background-color: rgb(215, 212, 212);
     width: 370px;
-    height: 60px;
+    height: 40px;
     text-align: center;
     font-size: 10px;
     position: absolute;
