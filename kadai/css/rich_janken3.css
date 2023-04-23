@@ -1,16 +1,16 @@
 body{
     font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
-    background-color: #8a8888;
+    background-color: gray;
     margin: 0 auto;
     
 }
 .wrap{
     background-color: white;
-    width: 360px;
+    width: 380px;
     height: auto;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: 10px;
+    /* box-shadow: 10px; */
     /* border: 20px ridge; */
 }
 .header{
@@ -96,7 +96,7 @@ body{
 
 .answer_wrap{
     background-color: rgb(215, 212, 212);;
-    width: 350px;
+    width: 370px;
     height: 200px;
     padding: 5px;
     color: black;
@@ -209,6 +209,7 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn9{
+    color: black;
     text-align: center;
     width: 60px;
     height: 40px;
@@ -330,11 +331,12 @@ body{
 .footer{
     /* color: white; */
     background-color:  gray;
-    width: 360px;
-    height: 30px;
+    width: 380px;
+    height: 60px;
     text-align: center;
     font-size: 10px;
     position: absolute;
     border-radius: 0 0 10px 10px ;
+    box-shadow: 10px black;
     
 }
