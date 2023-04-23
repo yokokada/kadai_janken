@@ -83,6 +83,7 @@ body{
     padding-bottom: 0;
 }
 #start_btn{
+    color: black;
     font-size: 16px;
     border-radius: 10px;
     border: none;
@@ -129,7 +130,7 @@ body{
 #btn1{
     color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -139,7 +140,7 @@ body{
 #btn2{
     color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -150,7 +151,7 @@ body{
 #btn3{
     color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -160,7 +161,7 @@ body{
 #btn4{
     color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -170,7 +171,7 @@ body{
 #btn5{
     color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -178,8 +179,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn6{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -187,8 +189,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn7{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -196,8 +199,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn8{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -206,7 +210,7 @@ body{
 }
 #btn9{
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -214,8 +218,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn0{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -223,8 +228,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn11{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -232,8 +238,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn12{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -241,8 +248,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn13{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -250,8 +258,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn14{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -259,8 +268,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn15{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -268,8 +278,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn16{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -277,8 +288,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn17{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -286,8 +298,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn18{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -295,8 +308,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn19{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -304,8 +318,9 @@ body{
     box-shadow: 0 1px gray;
 }
 #btn20{
+    color: black;
     text-align: center;
-    width: 50px;
+    width: 60px;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -313,7 +328,8 @@ body{
     box-shadow: 0 1px gray;
 }
 .footer{
-    background-color:  rgb(60, 184, 184);
+    /* color: white; */
+    background-color:  gray;
     width: 360px;
     height: 30px;
     text-align: center;
