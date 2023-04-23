@@ -6,7 +6,7 @@ body{
 }
 .wrap{
     background-color: white;
-    width: 380px;
+    width: 370px;
     height: auto;
     margin: 0 auto;
     border-radius: 10px;
@@ -96,7 +96,7 @@ body{
 
 .answer_wrap{
     background-color: rgb(215, 212, 212);;
-    width: 370px;
+    width: 360px;
     height: 200px;
     padding: 5px;
     color: black;
@@ -331,7 +331,7 @@ body{
 .footer{
     /* color: white; */
     background-color:  gray;
-    width: 380px;
+    width: 370px;
     height: 60px;
     text-align: center;
     font-size: 10px;
