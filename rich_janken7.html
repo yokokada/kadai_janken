@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- スマホに合わせて大きさ変えたい -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./kadai/js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="./kadai/css/rich_janken3.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./kadai/img/エクスクラメーションマーク.png">
+    <title>記号クイズ</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <p>記号クイズ</p>
+        </div>
+        <div class="main">
+            <p class="question">次の記号が書かれたkeyはどれ？</p>
+            <div class="quiz">
+                <div class="quiz_text">
+                    <p class="inst">正解すると○がでます</p>
+                    <div class="click_prompt">
+                    <p>clickして始める</p>
+                    <p>↓</p>
+                    </div>
+                </div>
+                <div class="quiz_answer"></div>
+            </div>
+            <div class="button_wrap">
+                <button id="start_btn">START</button>
+            </div>
+            <div class="answer_wrap">
+                <box class="answer1">
+                    <button id="button1">1</button>
+                    <button id="button2">2</button>
+                    <button id="button3">3</button>
+                    <button id="button4">4</button>
+                    <button id="button5">5</button>
+                 </box>
+                 <box class="answer2">
+                    <button id="button6">6</button>
+                    <button id="button7">7</button>
+                    <button id="button8">8</button>
+                    <button id="button9">9</button>
+                    <button id="button0">0</button>
+                 </box>
+                 <box class="answer3">
+                    <button id="button11">-</button>
+                    <button id="button12">^</button>
+                    <button id="button13">¥</button>
+                    <button id="button14">[</button>
+                    <button id="button15">]</button>
+                 </box>
+                 <box class="answer4">
+                    <button id="button16">;</button>
+                    <button id="button17">:</button>
+                    <button id="button18">,</button>
+                    <button id="button19">.</button>
+                    <button id="button20">/</button>
+                    <img src="" alt="">
+                 </box>
+             </div>  
+        </div>
+        <div class="footer">
+            <p>2023.4.25 Yoko Okada</p>
+        </div>
+    </div> 
+</body>
+<script>
+    // 1の時は./kadai/img/の中にある1.pngを、２の時は./kadai/img/'の中にある2.pngを出す、１の時の答えはbutton1、２の時の答えはbutton2という関数
+    function qa (){
+        const n = Math.ceil( Math.random() * 20);
+        console.log(n);
+        const imgSrc = './kadai/img/'+ n + ".png";
+        console.log( imgSrc);
+        const $quiz = $(".quiz");
+        $quiz.empty();
+        const $img = $("<img>").attr("src", imgSrc);
+        $quiz.append($img);
+
+        $("button").click(function(){
+            const id = $(this).attr("id");
+            if(id === "button" + n){$(".quiz").html('<img src="./kadai/img/maru_sign.png">');}
+            console.log(id);
+        });
+    }
+
+    // スタートボタンをクリックしたら、qa関数を呼び出し、文字を「次の問題へ」に変える
+    $("#start_btn").on('click',function(){
+        qa();
+        $(this).html("次の問題へ");
+    });
+    // const n = Math.ceil(Math.random()*19);
+    // const x = n
+    // #start_btnをクリックしたらSTARTが「次の問題へ」になる
+    // $("#start_btn").html("次の問題へ")
+    // // .quizにランダムで19種類のimgを挿入
+    // if(n==1){$(".quiz").html('<img src="./kadai/img/1.png">');
+    // $("#btn1").on('click',maru);
+    // }
+    // if(n==2){$(".quiz").html('<img src="./kadai/img/2.png">');
+    // $("#btn2").on('click',maru);
+    // }
+    // if(n==3){$(".quiz").html('<img src="./kadai/img/3.png">');
+    // $("#btn3").on('click',maru);
+    // }
+    // if(n==4){$(".quiz").html('<img src="./kadai/img/4.png">');
+    // $("#btn4").on('click',maru);
+    // }
+    // if(n==5){$(".quiz").html('<img src="./kadai/img/5.png">');
+    // $("#btn5").on('click',maru);
+    // }
+    // if(n==6){$(".quiz").html('<img src="./kadai/img/6.png">');
+    // $("#btn6").on('click',maru);
+    // }
+    // if(n==7){$(".quiz").html('<img src="./kadai/img/7.png">');
+    // $("#btn7").on('click',maru);
+    // }
+    // if(n==8){$(".quiz").html('<img src="./kadai/img/8.png">');
+    // $("#btn8").on('click',maru);
+    // }
+    // if(n==9){$(".quiz").html('<img src="./kadai/img/9.png">');
+    // $("#btn9").on('click',maru);
+    // }
+    // if(n==11){$(".quiz").html('<img src="./kadai/img/11.png">');
+    // $("#btn11").on('click',maru);
+    // }
+    // if(n==12){$(".quiz").html('<img src="./kadai/img/12.png">');
+    // $("#btn12").on('click',maru);
+    // }
+    // if(n==13){$(".quiz").html('<img src="./kadai/img/13.png">');
+    // $("#btn13").on('click',maru);
+    // }
+    // if(n==14){$(".quiz").html('<img src="./kadai/img/14.png">');
+    // $("#btn14").on('click',maru);
+    // }
+    // if(n==15){$(".quiz").html('<img src="./kadai/img/15.png">');
+    // $("#btn15").on('click',maru);
+    // }
+    // if(n==16){$(".quiz").html('<img src="./kadai/img/16.png">');
+    // $("#btn16").on('click',maru);
+    // }
+    // if(n==17){$(".quiz").html('<img src="./kadai/img/17.png">');
+    // $("#btn17").on('click',maru);
+    // }
+    // if(n==18){$(".quiz").html('<img src="./kadai/img/18.png">');
+    // $("#btn18").on('click',maru);
+    // }
+    // if(n==19){$(".quiz").html('<img src="./kadai/img/19.png">');
+    // $("#btn19").on('click',maru);
+    // }
+    // if(n==10){$(".quiz").html('<img src="./kadai/img/20.png">');
+    // $("#btn20").on('click',maru);
+    // }
+    // 一生終了しないので、終了させて、点数も出したい！
+    // #start_btnが１６回クリックされたら終了
+    // ↑やってみたけどエンドレスの方が自分的には良かったので、以下はなし
+
+//     var count = 0; // カウントを初期化
+//     var btn = document.getElementById("start_btn"); // ボタン要素を取得
+//     btn.addEventListener("click", function() { // クリックイベントを設定
+//     count++; // カウントを増やす
+//     console.log(count)
+//     if (count === 14) { // カウントが15回になったら
+//     $(".quiz").html("15問終了！");
+//     $("#start_btn").html("もう一度チャレンジする");
+//     }
+//   });
+
+// この下は消さないように！
+    // });
+</script>
+
+</html>

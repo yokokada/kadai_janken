@@ -129,7 +129,7 @@ body{
     gap: 8px;
     margin: 0px 8px;
 }
-#btn1{
+#button1{
     color: black;
     text-align: center;
     width: 60px;
@@ -140,8 +140,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn1:hover{background: rgb(118, 188, 188);}
-#btn2{
+#button1:hover{background: rgb(118, 188, 188);}
+#button2{
     color: black;
     text-align: center;
     width: 60px;
@@ -152,9 +152,9 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn2:hover{background: rgb(118, 188, 188);}
+#button2:hover{background: rgb(118, 188, 188);}
 
-#btn3{
+#button3{
     color: black;
     text-align: center;
     width: 60px;
@@ -165,8 +165,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn3:hover{background:rgb(118, 188, 188);}
-#btn4{
+#button3:hover{background:rgb(118, 188, 188);}
+#button4{
     color: black;
     text-align: center;
     width: 60px;
@@ -177,8 +177,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn4:hover{background: rgb(118, 188, 188);}
-#btn5{
+#button4:hover{background: rgb(118, 188, 188);}
+#button5{
     color: black;
     text-align: center;
     width: 60px;
@@ -189,8 +189,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn5:hover{background: rgb(118, 188, 188);}
-#btn6{
+#button5:hover{background: rgb(118, 188, 188);}
+#button6{
     color: black;
     text-align: center;
     width: 60px;
@@ -201,8 +201,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn6:hover{background: rgb(118, 188, 188);}
-#btn7{
+#button6:hover{background: rgb(118, 188, 188);}
+#button7{
     color: black;
     text-align: center;
     width: 60px;
@@ -213,8 +213,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn7:hover{background: rgb(118, 188, 188);}
-#btn8{
+#button7:hover{background: rgb(118, 188, 188);}
+#button8{
     color: black;
     text-align: center;
     width: 60px;
@@ -225,8 +225,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn8:hover{background: rgb(118, 188, 188);}
-#btn9{
+#button8:hover{background: rgb(118, 188, 188);}
+#button9{
     color: black;
     text-align: center;
     width: 60px;
@@ -237,8 +237,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn9:hover{background: rgb(118, 188, 188);}
-#btn0{
+#button9:hover{background: rgb(118, 188, 188);}
+#button0{
     color: black;
     text-align: center;
     width: 60px;
@@ -249,8 +249,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn0:hover{background: rgb(118, 188, 188);}
-#btn11{
+#button0:hover{background: rgb(118, 188, 188);}
+#button11{
     color: black;
     text-align: center;
     width: 60px;
@@ -261,8 +261,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn11:hover{background: rgb(118, 188, 188);}
-#btn12{
+#button11:hover{background: rgb(118, 188, 188);}
+#button12{
     color: black;
     text-align: center;
     width: 60px;
@@ -273,8 +273,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn12:hover{background: rgb(118,188,188);}
-#btn13{
+#button12:hover{background: rgb(118,188,188);}
+#button13{
     color: black;
     text-align: center;
     width: 60px;
@@ -285,8 +285,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn13:hover{background: rgb(118,188,188);}
-#btn14{
+#button13:hover{background: rgb(118,188,188);}
+#button14{
     color: black;
     text-align: center;
     width: 60px;
@@ -297,8 +297,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn14:hover{background: rgb(118,188,188);}
-#btn15{
+#button14:hover{background: rgb(118,188,188);}
+#button15{
     color: black;
     text-align: center;
     width: 60px;
@@ -309,8 +309,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn15:hover{background:rgb(118,188,188);}
-#btn16{
+#button15:hover{background:rgb(118,188,188);}
+#button16{
     color: black;
     text-align: center;
     width: 60px;
@@ -321,8 +321,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn16:hover{background:rgb(118,188,188);}
-#btn17{
+#button16:hover{background:rgb(118,188,188);}
+#button17{
     color: black;
     text-align: center;
     width: 60px;
@@ -333,8 +333,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn17:hover{background: rgb(118,188,188);}
-#btn18{
+#button17:hover{background: rgb(118,188,188);}
+#button18{
     color: black;
     text-align: center;
     width: 60px;
@@ -345,8 +345,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn18:hover{background: rgb(118,188,188);}
-#btn19{
+#button18:hover{background: rgb(118,188,188);}
+#button19{
     color: black;
     text-align: center;
     width: 60px;
@@ -357,8 +357,8 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn19:hover{background:rgb(118,188,188);}
-#btn20{
+#button19:hover{background:rgb(118,188,188);}
+#button20{
     color: black;
     text-align: center;
     width: 60px;
@@ -369,7 +369,7 @@ body{
     box-shadow: 0 1px gray;
     transition: .3s;
 }
-#btn20:hover{background: rgb(118,188,188);}
+#button20:hover{background: rgb(118,188,188);}
 .footer{
     /* color: white; */
     background-color:rgb(118,188,188) ;
