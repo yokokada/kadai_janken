@@ -110,35 +110,42 @@ body{
     gap: 8px;
     margin-top: 8px;
     margin-bottom: 8px; 
+    height: 40px;
 }
 .answer2{
     display: flex;
     justify-content: center;
     gap: 8px;
     margin: 0 8px;
+    height: 40px;
 }
 .answer3{
     display: flex;
     justify-content: center;
     gap: 8px;
     margin: 8px;
+    height: 40px;
 }
 .answer4{
     display: flex;
     justify-content: center;
     gap: 8px;
     margin: 0px 8px;
+    height: 40px;
 }
-#button1{
+button{
     color: black;
     text-align: center;
-    width: 60px;
+    vertical-align: middle;
     height: 40px;
+    width: 60px;
     font-size: 20px;
     border-radius: 10px;
     border: none;
     box-shadow: 0 1px gray;
     transition: .3s;
+    padding: 20px ;
+
 }
 #button1:hover{background: rgb(118, 188, 188);}
 #button2{

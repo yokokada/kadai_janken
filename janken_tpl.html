@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<script src="js/jquery-2.1.3.min.js"></script>
-<link rel="stylesheet" href="css/sample.css">
+<script src="/kadai/js/jquery-2.1.3.min.js"></script>
+<link rel="stylesheet" href="/kadai/css/sample.css">
 <title>じゃんけん</title>
 </head>
 <body>
@@ -28,7 +28,6 @@
 //じゃんけん用のSCRIPTを書いてください
     $("#gu_btn").on("click",function(){
     const n = Math.ceil(Math.random()*3)
-    
     console.log(n)
     if(n == 1){
     document.querySelector("#pc_hands").innerHTML= "グー";
